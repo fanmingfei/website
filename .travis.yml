@@ -18,4 +18,4 @@ after_success:
 - git add -A .
 - git commit -m 'Auto updated'
 - git branch -m gh-pages
-- git push -q -u origin gh-pages
+- git push -q -u -f origin gh-pages
